@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suryansh Thakur | AI & Data Science Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 font-sans antialiased">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-tight bg-gradient-to-r from-indigo-600 to-cyan-500 bg-clip-text text-transparent">
+        Suryansh.
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-300">
+        <a href="#about" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition">About</a>
+        <a href="#education" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Education</a>
+        <a href="#skills" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Skills</a>
+        <a href="#beyond" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Beyond Academics</a>
+        <a href="#contact" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <button id="theme-toggle" aria-label="Toggle Dark Mode" class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-700 transition">
+          <i id="theme-icon" class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-5xl mx-auto px-6 pt-20 pb-16 md:pt-28 md:pb-24">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800 mb-6">
+      <span class="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
+      B.Tech AI & Data Science • CGC Landran (IKGPTU)
+    </div>
+    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+      Hi, I'm <span class="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">Suryansh Thakur</span>
+    </h1>
+    <p class="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed mb-8">
+      A first-year Artificial Intelligence & Data Science student passionate about programming, data analytics, building digital projects, and solving real-world problems through technology.
+    </p>
+    <div class="flex flex-wrap items-center gap-4">
+      <a href="#contact" class="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold shadow-lg shadow-indigo-500/25 transition">
+        Get in Touch
+      </a>
+      <a href="https://github.com/cx97fsm-hash" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-indigo-500 font-semibold flex items-center gap-2 transition">
+        <i class="fa-brands fa-github text-lg"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/search/results/all/?keywords=Suryansh%20Thakur" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-indigo-500 font-semibold flex items-center gap-2 transition">
+        <i class="fa-brands fa-linkedin text-lg text-sky-600"></i> LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <!-- About & Philosophy -->
+  <section id="about" class="max-w-5xl mx-auto px-6 py-12">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="md:col-span-2 p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <h2 class="text-2xl font-bold mb-4 flex items-center gap-2">
+          <i class="fa-solid fa-user-astronaut text-indigo-500"></i> About Me
+        </h2>
+        <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+          I'm Suryansh Thakur, a B.Tech student specializing in Artificial Intelligence and Data Science at CGC College of Engineering, Landran, affiliated with I.K. Gujral Punjab Technical University (IKGPTU).
+        </p>
+        <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+          Currently, I am building a strong foundation in computer science and exploring modern technologies to develop practical skills. I believe in continuous learning, consistency, practical experience, and improving myself every single day.
+        </p>
+      </div>
+
+      <!-- Philosophy & Gaming Card -->
+      <div class="p-8 rounded-2xl bg-gradient-to-br from-indigo-600 to-purple-700 text-white shadow-lg flex flex-col justify-between">
+        <div>
+          <span class="text-xs uppercase tracking-wider font-semibold text-indigo-200">Personal Philosophy</span>
+          <blockquote class="text-xl font-bold mt-2 mb-4 leading-snug">
+            "Don't just learn technology. Build something with it."
+          </blockquote>
+          <p class="text-sm text-indigo-100 leading-relaxed">
+            Consistency, discipline, curiosity, and hands-on building drive everything I do.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/20">
+          <span class="text-xs uppercase tracking-wider font-semibold text-indigo-200 block mb-1">Passions & Downtime</span>
+          <p class="text-sm font-medium flex items-center gap-2">
+            <i class="fa-solid fa-gamepad"></i> Valorant player, gamer & curious lifelong learner
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+      <i class="fa-solid fa-graduation-cap text-indigo-500"></i> Education
+    </h2>
+    <div class="p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
+        <div>
+          <h3 class="text-xl font-bold">Bachelor of Technology (B.Tech) — Artificial Intelligence & Data Science</h3>
+          <p class="text-indigo-600 dark:text-indigo-400 font-medium">CGC College of Engineering, Landran</p>
+        </div>
+        <span class="inline-block px-3 py-1 rounded-lg text-sm font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 w-fit">
+          2026 – 2030 • First Year
+        </span>
+      </div>
+      <p class="text-sm text-slate-600 dark:text-slate-400">
+        Affiliated with <strong>I.K. Gujral Punjab Technical University (IKGPTU)</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills & Career Interests -->
+  <section id="skills" class="max-w-5xl mx-auto px-6 py-12">
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Technical Skills -->
+      <div class="p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <h2 class="text-xl font-bold mb-2 flex items-center gap-2">
+          <i class="fa-solid fa-code text-indigo-500"></i> Technical Skills & Learning
+        </h2>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mb-5">Currently building hands-on proficiency in:</p>
+        <div class="flex flex-wrap gap-2.5">
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-900">C Programming</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-900">Python Programming</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-900">Mathematics for Computing</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-900">AI Fundamentals</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-900">Data Analysis Fundamentals</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-900">CS Fundamentals</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-900">HTML & CSS</span>
+        </div>
+      </div>
+
+      <!-- Career Interests -->
+      <div class="p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <h2 class="text-xl font-bold mb-2 flex items-center gap-2">
+          <i class="fa-solid fa-compass text-cyan-500"></i> Areas of Interest
+        </h2>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mb-5">Domains I am actively exploring and building toward:</p>
+        <div class="flex flex-wrap gap-2.5">
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-100 dark:border-cyan-900">Data Analytics</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-100 dark:border-cyan-900">Artificial Intelligence</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-100 dark:border-cyan-900">Machine Learning</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-100 dark:border-cyan-900">Data Science</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-100 dark:border-cyan-900">Python Programming</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-100 dark:border-cyan-900">Business Intelligence</span>
+          <span class="px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-100 dark:border-cyan-900">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beyond Academics -->
+  <section id="beyond" class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+      <i class="fa-solid fa-sparkles text-indigo-500"></i> Beyond Academics
+    </h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+        <i class="fa-solid fa-gamepad text-indigo-500 text-xl mb-3"></i>
+        <h3 class="font-bold mb-1">Gaming & Valorant</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">Enjoying tactical gameplay in Valorant, sharpening quick decision-making and teamwork.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+        <i class="fa-solid fa-robot text-cyan-500 text-xl mb-3"></i>
+        <h3 class="font-bold mb-1">AI Tools & Tech</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">Exploring emerging AI tools, workflows, and innovative digital ideas.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+        <i class="fa-solid fa-laptop-code text-purple-500 text-xl mb-3"></i>
+        <h3 class="font-bold mb-1">Web & Digital Projects</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">Building websites, experimenting with content creation, and digital marketing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto px-6 py-16">
+    <div class="p-8 md:p-12 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-center shadow-sm">
+      <h2 class="text-3xl font-bold mb-3">Let's Connect</h2>
+      <p class="text-slate-600 dark:text-slate-400 max-w-lg mx-auto mb-8">
+        Always open to discussing AI, data analytics, web projects, or teaming up for a game of Valorant.
+      </p>
+      <div class="flex flex-wrap justify-center items-center gap-4">
+        <a href="mailto:suryansh1406rt@gmail.com" class="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold flex items-center gap-2 transition">
+          <i class="fa-solid fa-envelope"></i> suryansh1406rt@gmail.com
+        </a>
+        <button id="copy-email" class="px-5 py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-semibold text-sm transition">
+          <i class="fa-regular fa-copy mr-1"></i> Copy Email
+        </button>
+      </div>
+      <p id="copy-feedback" class="text-xs text-emerald-600 dark:text-emerald-400 font-medium mt-3 opacity-0 transition-opacity">
+        Email copied to clipboard!
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-8 text-center text-sm text-slate-500 dark:text-slate-400">
+    <p>© 2026 Suryansh Thakur • Built with HTML, Tailwind CSS & Curiosity</p>
+  </footer>
+
+  <script>
+    // Dark/Light Mode Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const html = document.documentElement;
+
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      html.classList.add('dark');
+      themeIcon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+      const isDark = html.classList.contains('dark');
+      localStorage.theme = isDark ? 'dark' : 'light';
+      themeIcon.classList.replace(isDark ? 'fa-moon' : 'fa-sun', isDark ? 'fa-sun' : 'fa-moon');
+    });
+
+    // Copy Email Button
+    const copyBtn = document.getElementById('copy-email');
+    const feedback = document.getElementById('copy-feedback');
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText('suryansh1406rt@gmail.com');
+      feedback.classList.remove('opacity-0');
+      setTimeout(() => feedback.classList.add('opacity-0'), 2500);
+    });
+  </script>
+</body>
+</html>
